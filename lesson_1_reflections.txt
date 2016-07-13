@@ -1,0 +1,45 @@
+Commands learnt 
+
+Basic
+
+1. in windows use "fc" in command promt to compare the difference
+2. in unix and linux use "diff -u"
+3. in linux - sign means the part of the document that has been removed in new file
+4. in linux + sign means the part of the document that has been added in new file
+5. in windows use this code to change directory "cd /d d:\temp"
+
+Git Related Commands
+1. git log
+2. git log --stat //shows a more detailed view
+3. git diff @1stid @2ndid
+4. git config --global color.ui auto //config is basic config and global means it would be applied to all the git project files the command adds color to the editor for proper viewing. 
+5 git clone @websiteaddress
+
+Some Terms
+> commits are a snapshot of every file in a repository at the time the commit was made
+
+Question1
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+>>ofcourse it is easy to compare then having to rely solely on remembering things. 
+
+Question2
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+>>lets hope so..
+
+Question3
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+>> Pros: commit can be just right and meaningful
+   Cons: sometime you forget to commit- human error
+
+Question4
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+>>Git was especially made for coding. 
+
+Question 5
+How can you use the commands git log and git diff to view the history of files?
+>>git log gives the log of all the previous commits to the repository(multiple files)
+	git diff compares the difference between two files identified by their ids.
+
+Question 6
+How might using version control make you more confident to make changes that could break something?
+>version control helps to switch back in time when certain bugs were introduced. further more u can compare the difference in the files which makes it even easier to find out the bug. 

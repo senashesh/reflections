@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+> the files in ur repository are ready to be processed by git. git creates and index of ur files in the repository and the files are hidden
+under the name .
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+>diff from working directory coz files have to be added to staging area from working directory manually via add command.
+ diff from repository coz the files are not yet committed hence not part of repository yet.
+ the value it provides is that u can choose which files to add to repository from the working directory and also provides 
+ flexibility and precautions so that you dont do some accidental mistakes in your git project

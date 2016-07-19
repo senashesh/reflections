@@ -10,3 +10,9 @@ it is stored in ur github website. branches are comprised of different commits u
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 >>so u can compare changes even when ur offline 
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+>>without github we can collaborate by other versions of online content sharing methods. it would be easier because it would be simple to use. on the otherhand,
+it would be harder to maintain for git provides sophisticated methods like branching and merging to make the collaboration process more mangeable. 
+
+
